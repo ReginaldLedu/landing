@@ -1,0 +1,116 @@
+* {
+  font-family: "Rubik";
+  box-sizing: border-box;
+}
+.userSearch__sort {
+  width: 100%;
+  display: inline-block;
+
+  height: 200px;
+}
+.userSearch__wrapper {
+  width: 300px;
+  height: 100vh;
+  margin: auto;
+}
+.userSearch__label {
+  margin-top: 40px;
+  display: block;
+}
+.userInput {
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 180px;
+  height: 40px;
+  border-radius: 30px;
+  border: 1px solid #00000080;
+  padding-left: 35px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  background-image: url("../../public/img/search.png");
+  background-repeat: no-repeat;
+  background-position: 5% 50%;
+}
+.main__paginationForward {
+  width: 25px;
+  height: 25px;
+}
+.userSearch__submit {
+  margin-left: 15px;
+  box-sizing: border-box;
+  width: 100px;
+  height: 40px;
+  background-color: #fdd446;
+  border-radius: 20px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.userSearch__dropdown {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 80%;
+  margin: auto;
+}
+.userSearch__dropdownByDefault,
+.userSearch__dropdownAsc,
+.userSearch__dropdownDesc {
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  border: none;
+  text-align: left;
+  padding: 5px 10px;
+  background: linear-gradient(90deg, #fdd446 0%, #f79b47 100%);
+}
+.userSearch__pagination {
+  width: 258px;
+  height: 40px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+.userSearch__profileWrapper {
+  display: block;
+}
+
+.userSearch__profile {
+  width: 80%;
+  height: 50px;
+  overflow: hidden;
+  margin: auto;
+  border: 5px solid #f79b47;
+  padding: 10px 10px;
+}
+
+.profileAvatar__pic {
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+.userSearch__profileAvatar {
+  width: 50px;
+  height: 50px;
+}
+.userSearch__profileDetails {
+  margin-top: 20px;
+
+  justify-content: space-around;
+  align-items: center;
+}
